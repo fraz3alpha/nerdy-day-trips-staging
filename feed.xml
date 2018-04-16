@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://staging.nerdy-day-trips.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://staging.nerdy-day-trips.com/" rel="alternate" type="text/html" /><updated>2018-04-16T20:17:11+00:00</updated><id>https://staging.nerdy-day-trips.com/</id><title type="html">Nerdy Day Trips - Staging</title><subtitle>Discover nerdy places to visit with 'The Map'! Find out about each place with a post full of useful information</subtitle><author><name>Your Name</name></author><entry><title type="html">Derwent Pencil Museum</title><link href="https://staging.nerdy-day-trips.com/posts/derwent-pencil-museum/" rel="alternate" type="text/html" title="Derwent Pencil Museum" /><published>2017-12-31T20:29:00+00:00</published><updated>2017-12-31T20:29:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/derwent-pencil-museum</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/derwent-pencil-museum/">&lt;p&gt;The Derwent Pencil Museum is awesome, but was closed due to flooding when I was nearby!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([54.604013, -3.141746]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">The Derwent Pencil Museum is awesome, but was closed due to flooding when I was nearby!</summary></entry><entry><title type="html">Kirkaldy Testing Museum</title><link href="https://staging.nerdy-day-trips.com/posts/kirkaldy-testing-museum/" rel="alternate" type="text/html" title="Kirkaldy Testing Museum" /><published>2017-12-31T13:38:00+00:00</published><updated>2017-12-31T13:38:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/kirkaldy-testing-museum</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/kirkaldy-testing-museum/">&lt;p&gt;The Kirkaldy Testing Museum is awesome, but isn’t open very often!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([51.505996, -0.1015026]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">The Kirkaldy Testing Museum is awesome, but isn’t open very often!</summary></entry><entry><title type="html">Museum of Science and Industry</title><link href="https://staging.nerdy-day-trips.com/posts/museum-of-science-and-industry/" rel="alternate" type="text/html" title="Museum of Science and Industry" /><published>2017-12-30T22:12:00+00:00</published><updated>2017-12-30T22:12:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/museum-of-science-and-industry</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/museum-of-science-and-industry/">&lt;p&gt;The Museum of Science and Industry is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([53.4773135, -2.2549624]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">The Museum of Science and Industry is awesome!</summary></entry><entry><title type="html">Twyford Waterworks</title><link href="https://staging.nerdy-day-trips.com/posts/twyford-waterworks/" rel="alternate" type="text/html" title="Twyford Waterworks" /><published>2017-12-30T16:41:00+00:00</published><updated>2017-12-30T16:41:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/twyford-waterworks</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/twyford-waterworks/">&lt;p&gt;Twyford Waterworks is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([51.0212084, -1.2990775]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">Twyford Waterworks is awesome!</summary></entry><entry><title type="html">Surgeon’s Hall Museums</title><link href="https://staging.nerdy-day-trips.com/posts/surgeons-hall-museums/" rel="alternate" type="text/html" title="Surgeon's Hall Museums" /><published>2017-12-30T14:51:00+00:00</published><updated>2017-12-30T14:51:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/surgeons-hall-museums</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/surgeons-hall-museums/">&lt;p&gt;The Surgeon’s Hall Museum is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([55.94667, -3.184731]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">The Surgeon’s Hall Museum is awesome!</summary></entry><entry><title type="html">National Museum of Computing</title><link href="https://staging.nerdy-day-trips.com/posts/national-museum-of-computing/" rel="alternate" type="text/html" title="National Museum of Computing" /><published>2017-12-30T14:51:00+00:00</published><updated>2017-12-30T14:51:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/national-museum-of-computing</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/national-museum-of-computing/">&lt;p&gt;The National Museum of Computing is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([51.9984682, -0.7438704]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">The National Museum of Computing is awesome!</summary></entry><entry><title type="html">Quarry Bank Mill</title><link href="https://staging.nerdy-day-trips.com/posts/quarry-bank-mill/" rel="alternate" type="text/html" title="Quarry Bank Mill" /><published>2017-12-30T14:46:00+00:00</published><updated>2017-12-30T14:46:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/quarry-bank-mill</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/quarry-bank-mill/">&lt;p&gt;Quarry Bank Mill is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([53.3436872, -2.2500936]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">Quarry Bank Mill is awesome!</summary></entry><entry><title type="html">Bletchley Park</title><link href="https://staging.nerdy-day-trips.com/posts/bletchley-park/" rel="alternate" type="text/html" title="Bletchley Park" /><published>2017-12-30T14:43:00+00:00</published><updated>2017-12-30T14:43:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/bletchley-park</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/bletchley-park/">&lt;p&gt;Bletchley Park is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([51.9976597, -0.7406863]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><category term="county:northamptonshire" /><category term="country:gb" /><summary type="html">Bletchley Park is awesome!</summary></entry><entry><title type="html">Florence Nightingale Museum</title><link href="https://staging.nerdy-day-trips.com/posts/florence-nightingale-museum/" rel="alternate" type="text/html" title="Florence Nightingale Museum" /><published>2017-12-30T14:39:00+00:00</published><updated>2017-12-30T14:39:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/florence-nightingale-museum</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/florence-nightingale-museum/">&lt;p&gt;The Florence Nightingale Museum is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([51.5000416, -0.1175899]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">The Florence Nightingale Museum is awesome!</summary></entry><entry><title type="html">Stott Park Bobbin Mill</title><link href="https://staging.nerdy-day-trips.com/posts/stott-park-bobbin-mill/" rel="alternate" type="text/html" title="Stott Park Bobbin Mill" /><published>2017-12-30T14:35:00+00:00</published><updated>2017-12-30T14:35:00+00:00</updated><id>https://staging.nerdy-day-trips.com/posts/stott-park-bobbin-mill</id><content type="html" xml:base="https://staging.nerdy-day-trips.com/posts/stott-park-bobbin-mill/">&lt;p&gt;Stott Park Bobbin Mill is awesome!&lt;/p&gt;
+
+&lt;div id=&quot;map&quot; class=&quot;openstreetmap-leaflet-map&quot; style=&quot;height: 400px&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors'
+}).addTo(map);
+
+map.addControl(new L.Control.Fullscreen());
+
+var geocoder = L.Control.geocoder({
+        defaultMarkGeocode: false
+    })
+    .on('markgeocode', function(e) {
+        var bbox = e.geocode.bbox;
+        var poly = L.polygon([
+             bbox.getSouthEast(),
+             bbox.getNorthEast(),
+             bbox.getNorthWest(),
+             bbox.getSouthWest()
+        ])
+        map.fitBounds(poly.getBounds());
+    })
+    .addTo(map);
+
+var markers = L.markerClusterGroup();
+markers.addLayer(L.marker([54.285616, -2.965864]).bindPopup('A pretty CSS3 popup.&lt;br&gt; Easily customizable.'));
+
+map.addLayer(markers);
+
+&lt;/script&gt;</content><author><name>Your Name</name></author><summary type="html">Stott Park Bobbin Mill is awesome!</summary></entry></feed>
